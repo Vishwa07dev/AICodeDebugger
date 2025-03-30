@@ -16,7 +16,7 @@ const editor = CodeMirror(document.getElementById('editor-container'), {
     const code = editor.getValue();
     const language = document.getElementById('language').value;
   
-    const response = await fetch('http://localhost:8080/debug', {
+    const response = await fetch('http://localhost:8000/debug', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
