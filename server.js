@@ -9,7 +9,7 @@ app.use(express.static("public"));
 
 
 const openai = new openAIApi({
-    apiKey : "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"
+    apiKey : ""
 })
 
 /**
